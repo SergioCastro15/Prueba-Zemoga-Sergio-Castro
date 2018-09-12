@@ -1,1 +1,1 @@
-Prueba de Zemoga realizada por Sergio Andres Castros
+Prueba de Zemoga realizada por Sergio Andres Castro
