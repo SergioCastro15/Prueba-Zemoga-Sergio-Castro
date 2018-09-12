@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+<!--HEADER-->
+    <header class="" >
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class=" menu titulo col-lg-7 col-xs-12 col-md-12 col-sm-12 col-12 mb-5 text-lg-left text-md-center">
+                    <p class="">Rule of thumb</p>
+                </div>
+
+                <div class="menu col-lg-5 col-xs-12 col-md-12 col-sm-12 col-12 text-lg-right text-md-center d-flex justify-content-around">
+                    <a class="" href="">Past Trials</a>
+                    <a class="" href="">How it works</a>
+                    <a class="" href="">log in/Sign Up</a>
+                    <a href=""><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container cajita">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-12 texto">
+                    <p class="text-justify-left t">what's your opinion on</p>
+                    <h1 class="text-justify-left t">Pope Francis?</h1>
+                    <p class="text-justify-left t">He's talking tough on clergy sexual abuse, but is he just another papal pervert protector?</p>
+                    <a class="text-justify-left t"href=""> More information</a>
+                    <h2 class="text-justify-left t">What's your veredic</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-6 col-md-6 verde text-center">
+                    <i class=" icono fas fa-thumbs-up"></i>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 col-md-6 rojo text-center">
+                    <i class=" icono fas fa-thumbs-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margen_abajo2">
+            <div class="col-4 clo">
+                <p class="text-right">Closing in</p>
+            </div>
+
+            <div class="col-8 days">
+                <p>22 Days</p>
+            </div>
+        </div>
+    </header>
+<!-- SECTION-->
+
+<div class="container">
+    <div class="row">
+        <div class=" col-12 col-lg-3 col-sm-12 mt-4">
+            <h4>Speak out. Be heard.</h4>
+            <h2 class="text-justify"> Be counted</h2>
+        </div>
+
+        <div class=" col-12 col-lg-8 col-sm-11  mt-4">
+            <p class="text-justify"> Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone and everyone can speak out and speak freely. It's easy: You share your opinion , we analyze and put the data in a publir report</p>
+        </div>
+
+        <div class="col-12 col-lg-1 col-sm-1 mt-4 x text-center" >
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="py-4 border-bottom">
+                <p style="font-size:30px;">Votes</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <!-- Card -->
+            <div class="card card-image mb-3 fotos">
+                <div class="contenido text-justify mt-auto">
+                 <!-- Content -->
+                     <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                        <div id="resultado"></div>
+                        <h2>Kanye West</h2>
+                     </div>
+     
+                     <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                             <p class="text-justify">1 month ago in Entretainment</p>
+                     </div>
+     
+                     <div class="text-white text-center d-flex align-items-center rgba-black-strong py-1 px-4">
+                        <p class="text-left" id="gracias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto illo quo dolores quam possimus, tempora ipsa. Voluptatum qui necessitatibus quasi praesentium.</p>
+                     </div>
+     
+                     <div class="px-4" id="cambio">
+                            <button  id ="likeb" class="text-white boton cursor"style="background:#2FBDB8;"><i class=" icono fas fa-thumbs-up clr"></i></button> 
+                            <button id ="dislikeb"class="mx-2 text-white cursor" style="background:#FEB331;"><i class=" icono fas fa-thumbs-down clr"></i></button>
+                            <button id="vote" type="button" class="btn btn-outline-secondary text-white">Vote now</button>
+                     </div>
+                     <div class="px-4" id="cambio2">
+                            <button id="cambio_boton" type="button" class="btn btn-outline-secondary text-white">Vote Again</button>
+                     </div>
+                     <div class="todo my-4">
+                        <div class="bar">
+                            <div class="likes d-flex justify-content-start letra" id="likes" ><i class=" mx-3 icono fas fa-thumbs-up clr"></i> 0% </div>
+                            <div class="dislikes d-flex justify-content-end letra" id="dislikes">0%<i class="icono fas fa-thumbs-down clr"></i></div>
+                        </div>
+                     </div>
+                <!-- Content -->
+                </div>
+            </div>
+            <!-- Card -->
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+             <!-- Card -->
+             <div class="card card-image mb-3 fotos2">
+                <div class="contenido text-justify mt-auto">
+                    <!-- Content -->
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                        <div id="resultado2"></div>
+                        <h2 class="text-left">Mark Zuckerberg</h2>
+                        </div>
+
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                                <p class="text-justify">1 month ago in business</p>
+                        </div>
+
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-1 px-4">
+                        <p class="text-left" id="gracias2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto illo quo dolores quam possimus, tempora ipsa. Voluptatum qui necessitatibus quasi praesentium.</p>
+                        </div>
+
+                        <div class="px-4" id="cambio3">
+                                <button  id ="likeb2" class="text-white boton  cursor"style="background:#2FBDB8;"><i class=" icono fas fa-thumbs-up clr"></i></button> 
+                                <button id ="dislikeb2"class="mx-2 text-white  cursor" style="background:#FEB331;"><i class=" icono fas fa-thumbs-down clr"></i></button>
+                                <button id="vote2" type="button" class="btn btn-outline-secondary text-white">Vote now</button>
+                         </div>
+                         <div class="px-4" id="cambio4">
+                                <button id="cambio_boton2" type="button" class="btn btn-outline-secondary text-white">Vote Again</button>
+                         </div>
+
+                        <div class="todo my-4">
+                        <div class="bar">
+                            <div class="likes d-flex justify-content-start letra" id="likes2"><i class=" mx-3 icono fas fa-thumbs-up clr"></i>0%</div>
+                            <div class="dislikes d-flex justify-content-end letra" id="dislikes2">0%<i class=" icono fas fa-thumbs-down clr"></i></div>
+                        </div>
+                        </div>
+                <!-- Content -->
+                </div>
+            </div>
+            <!-- Card -->
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <!-- Card -->
+            <div class="card card-image mb-3 fotos3">
+
+                <div class="contenido text-justify mt-auto">
+                        <!-- Content -->
+                            <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                                <div id="resultado3"></div>
+                                <h2 class="text-left">Cristina Fernandez</h2>
+                            </div>
+
+                            <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                                    <p class="text-justify">1 month ago in Politics</p>
+                            </div>
+
+                            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-1 px-4">
+                            <p class="text-left" id="gracias3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto illo quo dolores quam possimus, tempora ipsa. Voluptatum qui necessitatibus quasi praesentium.</p>
+                            </div>
+
+                            <div class="px-4" id="cambio5">
+                                    <button  id ="likeb3" class="text-white boton  cursor"style="background:#2FBDB8;"><i class=" icono fas fa-thumbs-up clr"></i></button> 
+                                    <button id ="dislikeb3"class="mx-2 text-white cursor" style="background:#FEB331;"><i class=" icono fas fa-thumbs-down clr"></i></button>
+                                    <button id="vote3" type="button" class="btn btn-outline-secondary text-white">Vote now</button>
+                            </div>
+                            <div class="px-4" id="cambio6">
+                                    <button id="cambio_boton3" type="button" class="btn btn-outline-secondary text-white">Vote Again</button>
+                            </div>
+                            <div class="todo my-4">
+                                <div class="bar">
+                                    <div class="likes d-flex justify-content-start letra" id="likes3"><i class=" mx-3 icono fas fa-thumbs-up clr"></i>0%</div>
+                                    <div class="dislikes d-flex justify-content-end letra" id="dislikes3">0%<i class=" icono fas fa-thumbs-down clr"></i></div>
+                                </div>
+                            </div>
+                    <!-- Content -->
+                </div>
+           </div>
+           <!-- Card -->
+       </div>
+
+       <div class="col-lg-6 col-md-12 col-sm-12">
+        <!-- Card -->
+        <div class="card card-image mb-3 fotos4">
+
+            <div class="contenido text-justify mt-auto">
+                    <!-- Content -->
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                        <div id="resultado4"></div>
+                        <h2>Malala Yousafzai</h2>
+                        </div>
+
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong  px-4">
+                                <p class="text-justify">1 month ago in Entretainment</p>
+                        </div>
+
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-1 px-4">
+                        <p class="text-left" id="gracias4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto illo quo dolores quam possimus, tempora ipsa. Voluptatum qui necessitatibus quasi praesentium.</p>
+                        </div>
+
+                        <div class="px-4" id="cambio7">
+                                <button  id ="likeb4" class="text-white boton  cursor"style="background:#2FBDB8;"><i class=" icono fas fa-thumbs-up clr"></i></button> 
+                                <button id ="dislikeb4"class="mx-2 text-white  cursor" style="background:#FEB331;"><i class=" icono fas fa-thumbs-down clr"></i></button>
+                                <button id="vote4" type="button" class="btn btn-outline-secondary text-white">Vote now</button>
+                        </div>
+                        <div class="px-4" id="cambio8">
+                                <button id="cambio_boton4" type="button" class="btn btn-outline-secondary text-white">Vote Again</button>
+                        </div>
+                        <div class="todo my-4">
+                            <div class="bar">
+                                <div class="likes d-flex justify-content-start letra" id="likes4"><i class=" mx-3 icono fas fa-thumbs-up clr"></i>0%</div>
+                                <div class="dislikes d-flex justify-content-end letra" id="dislikes4">0%<i class=" icono fas fa-thumbs-down clr"></i></div>
+                            </div>
+                        </div>
+                <!-- Content -->
+            </div>
+       </div>
+       <!-- Card -->
+   </div>
+    </div>
+</div>
+
+<div class="container py-4">
+    <div class="row fondo" style="background-image: url(img/fondo.jpg);">
+        <div class="col-lg-10 col-md-12 col-sm-12 col-12 ">
+            <p class="text-justify px-4"> Is there anyone else yoo would want us to add?</p>
+        </div> 
+        
+        <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-secondary d-flex"> Submit a Name</button>
+        </div>   
+    </div>
+</div>
+
+<!--FOOTER-->
+
+<footer>
+    <div class="container">
+        <div class="footer-copyright text-center py-5">
+            <div class="row">
+                    <div class=" col-lg-10 col-md-12 col-sm-12 col-12 text-lg-left">
+                            <a href="" style="color: gray;"> Terms and Conditions</a>
+                            <a class="mx-4" style="color: gray;"href=""> Privacy Policy</a>
+                            <a href="" style="color: gray;"> contact us</a>
+                    </div>
+
+                    <div class=" col-lg-2 col-md-12 col-sm-12 col-12">
+                            <a href="" style="color: gray;"> Follow us</a>
+                            <a class="mx-4" style="color: gray;"href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href="" style="color: gray;"> <i class="fab fa-twitter"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
